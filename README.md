@@ -225,7 +225,7 @@ https://sebel.notion.site/9001f7deff124acd860c1e08d2b98114
 - queryForObject에서 데이터 값이 하나도 반환되지 않는 경우 EmptyResultDataAccessException가 발생했다. try-catch로 예외처리를 했지만 찾아보니 자바에서는 예외가 발생할 때 비용이
 많이 발생해서 if를 사용해 처리하는 것이 효율적이라고 한다. 이후 다른 방법을 찾아 다시 짜봐야겠다.
 
-br>
+<br>
 
 ## 2023-02-08
 
