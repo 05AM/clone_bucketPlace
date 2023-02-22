@@ -2,7 +2,6 @@ package com.example.demo.src.oauth;
 
 import com.example.demo.src.oauth.model.PostOauthCreateUserReq;
 import com.example.demo.src.oauth.model.UserInfo;
-import org.graalvm.compiler.nodes.calc.ObjectEqualsNode;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;

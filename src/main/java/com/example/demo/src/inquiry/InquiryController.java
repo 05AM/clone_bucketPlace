@@ -6,11 +6,9 @@ import com.example.demo.src.inquiry.model.GetInquiryRes;
 import com.example.demo.src.inquiry.model.PostInquiryReq;
 import com.example.demo.src.inquiry.model.PostInquiryRes;
 import com.example.demo.utils.JwtService;
-import com.sun.org.apache.bcel.internal.generic.PUSH;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.core.parameters.P;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 

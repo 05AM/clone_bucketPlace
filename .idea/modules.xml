@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/BucketPlace.main.iml" filepath="$PROJECT_DIR$/.idea/modules/BucketPlace.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.example.BucketPlace.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.example.BucketPlace.main.iml" />
     </modules>
   </component>
 </project>
