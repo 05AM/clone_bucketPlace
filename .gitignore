@@ -2,7 +2,7 @@
 logs/
 build/
 .gradle/
-.secret/
+src/main/java/com/example/demo/config/secret
 
 application-dev.yml
 application-prod.yml
