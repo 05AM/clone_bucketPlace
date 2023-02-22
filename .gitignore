@@ -2,3 +2,6 @@
 logs/
 build/
 .gradle/
+
+application-dev.yml
+application-prod.yml
