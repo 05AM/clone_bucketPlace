@@ -57,6 +57,15 @@ public class OauthController {
     }
 
     @ResponseBody
+    @GetMapping("/kakao/callback")
+    public BaseResponse<PostOauthRes> kakaoCallback(@RequestParam("code") String code){
+        System.out.println("code = " + code);
+        String accessToken = oauthService.getKakaoAccessToken(code);
+        PostOauthRes userInfo = oauthService.getKakaoUserInfo(accessToken);
+        return new BaseResponse<>(userInfo);
+    }
+
+    @ResponseBody
     @PostMapping("/sign-up/social")
     public BaseResponse<String> createSocialUser(@RequestHeader int userID, @RequestBody PostOauthCreateUserReq postOauthCreateUserReq) throws BaseException{
         UserInfo user = oauthProvider.getUserInfo(userID);

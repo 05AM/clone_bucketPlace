@@ -36,6 +36,12 @@ public class OauthProvider {
         return new PostOauthRes(userId, jwt);
     }
 
+    public PostOauthRes loginKakao(String email) {
+        int userId = oauthDao.getUserId(email);
+        String  jwt = jwtService.createJwt(userId);
+        return new PostOauthRes(userId, jwt);
+    }
+
     public UserInfo getUserInfo(int userID) throws BaseException {
         return oauthDao.getUserInfo(userID);
     }
