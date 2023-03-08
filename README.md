@@ -7,6 +7,14 @@
 
 https://sebel.notion.site/9001f7deff124acd860c1e08d2b98114
 
+### ERD
+
+<img src="https://bucketplace.s3.ap-northeast-2.amazonaws.com/photo/2023/03/08/13510cb0-a06f-46b5-a8fd-3305d90c9c7b.png"  width="700" height="400">
+
+### API 명세서
+
+https://docs.google.com/spreadsheets/d/1GcPXECAl6BLKGr8G5rNXpfR9wpVMwUfLMk7KFDIEMhk/edit#gid=252227832
+
 ## 2023-01-28
 
 ### 진행상황
