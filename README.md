@@ -172,7 +172,6 @@ https://docs.google.com/spreadsheets/d/1GcPXECAl6BLKGr8G5rNXpfR9wpVMwUfLMk7KFDIE
 구현된 API
 
 - 주문 목록 생성
-<<<<<<< HEAD
 - 상태별로 주문 목록 가져오기
 
 ### 이슈
